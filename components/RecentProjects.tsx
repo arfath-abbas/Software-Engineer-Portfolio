@@ -19,10 +19,10 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title={item.title}
+              href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <a href={item.link} target="_blank" rel="noopener noreferrer" className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -34,11 +34,13 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
-              </div>
+              </a>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
-              </h1>
+              <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 hover:text-purple transition-colors">
+                  {item.title}
+                </h1>
+              </a>
 
               <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
@@ -65,12 +67,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <a href={item.link} target="_blank" rel="noopener noreferrer" className="flex justify-center items-center cursor-pointer">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                </a>
               </div>
             </PinContainer>
           </div>
