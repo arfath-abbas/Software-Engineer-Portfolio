@@ -1,7 +1,12 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import dynamic from "next/dynamic";
 
-import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+// Dynamically import the CanvasRevealEffect with no SSR
+const CanvasRevealEffect = dynamic(
+  () => import("./ui/CanvasRevealEffect").then((mod) => mod.CanvasRevealEffect),
+  { ssr: false }
+);
 
 const Approach = () => {
   return (
