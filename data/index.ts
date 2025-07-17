@@ -77,7 +77,7 @@ export const projects = [
     id: 2,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    // img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -85,7 +85,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    // img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -93,7 +93,7 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -137,7 +137,7 @@ export const companies = [
     id: 1,
     name: "Amazon S3",
     img: "/aws.svg",
-    // nameImg: "/awsName.svg",
+    nameImg: "/awsS3.svg",
   },
   {
     id: 2,
@@ -153,9 +153,9 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Postman",
+    img: "/postman.svg",
+    nameImg: "/postmanName.svg",
   },
   {
     id: 5,
@@ -168,38 +168,41 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Associate",
-    desc: "Assisted in the development of a web-based platform using Angular, enhancing interactivity.",
+    title: "Software Engineering Associate - BT Group",
+    desc: "Led frontend and backend development for enterprise-grade Angular, Spring Boot apps, optimized network tools, and modernized data systems   from Oracle to PostgreSQL, boosting performance and deployment efficiency.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Intern - Rexroth Bosch",
+    desc: "Engineered PLC-based automation solutions, improving Industry 4.0 efficiency through hardware configuration and ladder logic programming.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Intern - NCBS",
+    desc: "Enhanced electrical maintenance operations by working on critical lab equipment, wiring, and soldering within a high-stakes research environment.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
-  },
+  }
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/arfath-abbas"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/arfathabbas07"
   },
   {
     id: 3,
     img: "/link.svg",
-  },
+    link: "https://linkedin.com/in/arfath-abbas-2a14851b0"
+  }
 ];
