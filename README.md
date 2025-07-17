@@ -134,36 +134,26 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/arfathabbas?tab=repositories",
+    title: "Personal Finance Tracker",
+    des: "FinTrack is a modern personal finance tracker built using Angular 19, Spring Boot and PostgreSQL. The app enables users to manage their income, expenses, and gain insights into their financial habits through dashboards and reports.",
+    img: "/fin-track.svg",
+    iconLists: [
+      "/angular-icon.svg",
+      "/bootstrap.svg",
+      "/ts.svg",
+      "/spring-boot.svg",
+      "/aws.svg",
+    ],
+    link: "https://finance-tracker-angular-app.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/arfathabbas/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/arfathabbas/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/arfathabbas/iphone",
-  },
+    title: "CineStream – Explore What the World Is Watching",
+    des: "CineStream is your one-stop destination to explore trending movies and TV series from around the world. Watch official trailers, browse by genre, search titles, and discover cast details—all powered by MovieDB.",
+    img: "/cineStream.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/material-ui.svg", "/redux.svg"],
+    link: "https://cine-stream-one.vercel.app/",
+  }
 ];
 
 export const testimonials = [
@@ -202,34 +192,34 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Amazon S3",
+    img: "/aws.svg",
+    nameImg: "/awsS3.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Netlify",
+    img: "/netlify.svg",
+    nameImg: "/netlifyName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Firebase",
+    img: "/firebase.svg",
+    nameImg: "/firebaseName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Postman",
+    img: "/postman.svg",
+    nameImg: "/postmanName.svg",
   },
   {
     id: 5,
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
-  },
+  }
 ];
 
 export const workExperience = [
@@ -260,15 +250,18 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/arfath-abbas"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/arfathabbas07"
   },
   {
     id: 3,
     img: "/link.svg",
-  },
+    link: "https://linkedin.com/in/arfath-abbas-2a14851b0"
+  }
 ];
 ```
 
