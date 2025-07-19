@@ -86,33 +86,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Arfath was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arfath's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arfath is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working alongside Arfath has been incredibly rewarding. His technical expertise and problem-solving abilities consistently impress our team. He approaches challenges with a positive attitude and always delivers high-quality code on time. Arfath's collaborative nature makes him an invaluable asset to any development project.",
+    name: "Bhuvneesh Sayal",
+    title: "Colleague at BT Group",
   },
   {
     quote:
-      "Collaborating with Arfath was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arfath's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arfath is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Arfath has consistently demonstrated exceptional skills in both frontend and backend development. His ability to quickly adapt to new technologies and his commitment to best practices have significantly improved our project outcomes. He takes ownership of his work and communicates effectively across teams, making him a standout member of our engineering department.",
+    name: "Anil Prasad",
+    title: "Software Engineering Manager at BT Group",
   },
   {
     quote:
-      "Collaborating with Arfath was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arfath's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arfath is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a designer, I've worked with many developers, but Arfath stands out for his attention to detail and commitment to pixel-perfect implementation. He understands the importance of user experience and always finds elegant solutions to complex UI challenges. His technical skills combined with design sensibility make collaboration seamless and productive.",
+    name: "Vinod",
+    title: "Functional Designer",
   },
   {
     quote:
-      "Collaborating with Arfath was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arfath's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arfath is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Arfath's technical proficiency and dedication to quality code have been instrumental to our team's success. He consistently delivers robust solutions while maintaining clean, maintainable codebases. His willingness to mentor junior developers and share knowledge demonstrates his commitment not just to code, but to the growth of the entire team.",
+    name: "Prabhat",
+    title: "Team Lead at BT Group",
   },
   {
     quote:
-      "Collaborating with Arfath was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arfath's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arfath is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've had the pleasure of mentoring Arfath during his early career, and I've been consistently impressed by his growth mindset and technical aptitude. He approaches each challenge with enthusiasm and never hesitates to dive into new technologies. His ability to quickly master complex concepts and apply them practically makes him an exceptional software engineer with tremendous potential.",
+    name: "Krishna Prasad",
+    title: "Senior Software Architect",
   },
 ];
 
