@@ -16,6 +16,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  // Disable static generation
+  output: 'standalone',
 };
 
 export default nextConfig;
