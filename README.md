@@ -1,26 +1,15 @@
-<div align="center">
-  <!-- <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/arfath-abbas/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
-    </a>
-  <br /> -->
+# Software Engineer Portfolio
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-</div>
-
+A modern, interactive portfolio website showcasing my skills, projects, and professional experience as a software engineer.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Three.js
-- Framer Motion
-- Tailwind CSS
+- **Next.js 14** - React framework with server-side rendering and static site generation
+- **Three.js** - JavaScript 3D library for creating interactive 3D graphics
+- **Framer Motion** - Animation library for React
+- **Tailwind CSS** - Utility-first CSS framework
+- **TypeScript** - Strongly typed programming language
+- **React Three Fiber** - React renderer for Three.js
 
 ## <a name="features">🔋 Features</a>
 
@@ -38,7 +27,13 @@
 
 👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
-and many more, including code architecture and reusability
+👉 **Performance Optimization**: Implemented dynamic imports and code splitting for faster load times.
+
+👉 **Clean Code Architecture**: Organized component structure with separation of concerns for better maintainability.
+
+👉 **Accessibility**: Designed with accessibility in mind, ensuring a great experience for all users.
+
+👉 **Dark Mode**: Elegant dark mode implementation for comfortable viewing in different lighting conditions.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -75,7 +70,75 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="contributing">👥 Contributing</a>
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+## <a name="deployment">🚀 Deployment</a>
+
+This portfolio is deployed on Vercel. You can view the live site at [your-portfolio-url.com](https://your-portfolio-url.com).
+
+### Deployment Steps
+
+1. Push your code to GitHub
+2. Connect your GitHub repository to Vercel
+3. Configure build settings (Vercel will automatically detect Next.js)
+4. Deploy!
+
+## <a name="project-structure">📁 Project Structure</a>
+
+```
+/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── ui/           # UI components
+│   ├── Hero.tsx      # Hero section
+│   ├── ...
+├── data/             # Data files
+├── lib/              # Utility functions
+├── public/           # Static assets
+├── styles/           # Global styles
+├── next.config.mjs   # Next.js configuration
+├── package.json      # Project dependencies
+├── tailwind.config.ts # Tailwind configuration
+└── tsconfig.json     # TypeScript configuration
+```
+
+## <a name="customization">🎨 Customization</a>
+
+To customize this portfolio for your own use:
+
+1. Update the data in `data/index.ts` with your own information
+2. Replace images in the `public/` directory
+3. Modify color schemes in `tailwind.config.ts`
+4. Adjust animations and effects to match your style
+
+## <a name="license">📄 License</a>
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## <a name="acknowledgments">🙏 Acknowledgments</a>
+
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) for the animation library
+- [Three.js](https://threejs.org/) for the 3D graphics
+- [Next.js](https://nextjs.org/) for the React framework
+- All the amazing open-source contributors who make development easier
+
+## <a name="contact">📬 Contact</a>
+
+Arfath Abbas - [LinkedIn](https://linkedin.com/in/arfath-abbas-2a14851b0) - [GitHub](https://github.com/arfath-abbas) - [Twitter](https://twitter.com/arfathabbas07)
+
+Project Link: [https://github.com/arfathabbas/portfolio](https://github.com/arfathabbas/portfolio)
+
+## <a name="snippets">🕸️ Code Snippets</a>
 
 <details>
 <summary><code>data/index.ts</code></summary>
@@ -128,7 +191,7 @@ export const gridItems = [
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
-  }
+  },
 ];
 
 export const projects = [
@@ -151,9 +214,15 @@ export const projects = [
     title: "CineStream – Explore What the World Is Watching",
     des: "CineStream is your one-stop destination to explore trending movies and TV series from around the world. Watch official trailers, browse by genre, search titles, and discover cast details—all powered by MovieDB.",
     img: "/cineStream.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/material-ui.svg", "/redux.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/material-ui.svg",
+      "/redux.svg",
+    ],
     link: "https://cine-stream-one.vercel.app/",
-  }
+  },
 ];
 
 export const testimonials = [
@@ -178,7 +247,7 @@ export const testimonials = [
   {
     quote:
       "Arfath's technical proficiency and dedication to quality code have been instrumental to our team's success. He consistently delivers robust solutions while maintaining clean, maintainable codebases. His willingness to mentor junior developers and share knowledge demonstrates his commitment not just to code, but to the growth of the entire team.",
-    name: "Prabhat",
+    name: "Prabhat Kumar",
     title: "Team Lead at BT Group",
   },
   {
@@ -204,9 +273,9 @@ export const companies = [
   },
   {
     id: 3,
-    name: "Firebase",
-    img: "/firebase.svg",
-    nameImg: "/firebaseName.svg",
+    name: "Angular",
+    img: "/angular.svg",
+    nameImg: "/angularName.svg",
   },
   {
     id: 4,
@@ -219,7 +288,7 @@ export const companies = [
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
-  }
+  },
 ];
 
 export const workExperience = [
@@ -243,25 +312,25 @@ export const workExperience = [
     desc: "Enhanced electrical maintenance operations by working on critical lab equipment, wiring, and soldering within a high-stakes research environment.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
-  }
+  },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/arfath-abbas"
+    link: "https://github.com/arfath-abbas",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link: "https://twitter.com/arfathabbas07"
+    link: "https://twitter.com/arfathabbas07",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://linkedin.com/in/arfath-abbas-2a14851b0"
-  }
+    link: "https://linkedin.com/in/arfath-abbas-2a14851b0",
+  },
 ];
 ```
 
@@ -475,118 +544,6 @@ function addVariablesForColors({ addBase, theme }: any) {
 }
 
 export default config;
-```
-
-</details>
-
-<details>
-<summary><code>globals.css</code></summary>
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border !scroll-smooth;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  button {
-    @apply active:outline-none;
-  }
-}
-
-@layer utilities {
-  .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
-  }
-
-  .black-gradient {
-    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><code>Linear Gradient</code></summary>
-
-```js
-style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
 ```
 
 </details>
